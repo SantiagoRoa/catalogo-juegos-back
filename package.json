@@ -1,0 +1,31 @@
+{
+  "name": "crud-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoRoa/CRUD-MySQL.git"
+  },
+  "author": "Santiago Roa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoRoa/CRUD-MySQL/issues"
+  },
+  "homepage": "https://github.com/SantiagoRoa/CRUD-MySQL#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
